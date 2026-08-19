@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="theme-color" content="#020302">
+    <meta name="description" content="Alien Shooter - Basketball & Esports Community">
+
     <title>Alien Shooter | Basketball & Esports</title>
 
     <link rel="stylesheet" href="style.css">
@@ -13,444 +16,427 @@
 <body>
 
     <!-- ==========================================
+         SHOOTING STAR BACKGROUND
+    =========================================== -->
+    <div class="shooting-stars" aria-hidden="true">
+        <span class="shooting-star star-1"></span>
+        <span class="shooting-star star-2"></span>
+        <span class="shooting-star star-3"></span>
+        <span class="shooting-star star-4"></span>
+        <span class="shooting-star star-5"></span>
+        <span class="shooting-star star-6"></span>
+        <span class="shooting-star star-7"></span>
+        <span class="shooting-star star-8"></span>
+    </div>
+
+    <!-- ==========================================
          HEADER
     =========================================== -->
-
     <header>
-
         <div class="logo">
-
-            <div class="alien-icon">
-                👽
-            </div>
-
+            <div class="alien-icon">👽</div>
             <div>
                 <h2>ALIEN SHOOTER</h2>
                 <span>BASKETBALL</span>
             </div>
-
         </div>
 
-
-        <a
-            class="youtube-button"
-            href="https://www.youtube.com/@AlienShooterOfficialYt/videos"
-            target="_blank">
-
+        <a class="youtube-button"
+           href="https://www.youtube.com/@AlienShooterOfficialYt/videos"
+           target="_blank"
+           rel="noopener noreferrer">
             ▶ &nbsp; VISIT OUR YOUTUBE CHANNEL
-
         </a>
-
     </header>
-
 
     <!-- ==========================================
          BASKETBALL BANNER
     =========================================== -->
-
     <section class="banner">
-
-        <img
-            src="alien-banner.png"
-            alt="Alien Shooter Basketball">
-
+        <img src="alien-banner.png" alt="Alien Shooter Basketball Banner" fetchpriority="high">
     </section>
 
-
     <!-- ==========================================
-         BASKETBALL INTRODUCTION
+         INTRODUCTION
     =========================================== -->
-
     <section class="intro">
-
         <div class="intro-content">
-
-            <h3 class="since">
-                👽 &nbsp; ALIEN ESPORTS SINCE 2019 &nbsp; 👽
-            </h3>
-
-
-            <p>
-                Alien Shooter is more than just a YouTube channel.
+            <p class="since">
+                👽 &nbsp; ALIEN ESPORTS AND SHOOTERS SINCE 2019 &nbsp; 👽
             </p>
 
-            <p>
-                We are a basketball community built on passion,
-                discipline, teamwork, and the love of the game.
-            </p>
-
-            <p>
-                From intense matchups to basketball highlights,
-                training, and behind-the-scenes moments, we bring
-                you closer to the game we live for.
-            </p>
-
+            <p>Alien Shooter is more than just a YouTube channel.</p>
+            <p>We are a basketball community built on passion, discipline, teamwork, and the love of the game.</p>
+            <p>From intense matchups to basketball highlights, training, and behind-the-scenes moments, we bring you closer to the game we live for.</p>
 
             <h2 class="mission">
-                ONE GAME. ONE TEAM.
-                <span>ONE MISSION.</span>
+                ONE GAME. ONE TEAM. <span>ONE MISSION.</span>
             </h2>
 
-
-            <a
-                class="youtube-button main-button"
-                href="https://www.youtube.com/@AlienShooterOfficialYt/videos"
-                target="_blank">
-
+            <a class="youtube-button main-button" id="openVideoModal" href="#">
                 ▶ &nbsp; WATCH OUR BASKETBALL VIDEOS
-
             </a>
-
         </div>
-
     </section>
-
 
     <!-- ==========================================
-         FEATURED BASKETBALL MATCHUP
+         FEATURED MATCHUP
     =========================================== -->
-
     <section class="matchup">
-
-        <p class="label">
-            FEATURED MATCHUP
-        </p>
-
-
-        <div class="matchup-card">
-
-
-            <!-- WOLF NINJA -->
-
-            <div class="team">
-
-                <div class="team-logo">
-                    🐺
+        <div class="announcement-bar">
+            <div class="matchup-info">
+                <div class="team-info">
+                    <span class="team-icon">🐺</span>
+                    <div class="team-details">
+                        <span class="team-name">Wolf Ninja</span>
+                        <span class="players-list">KAzon • Brylle</span>
+                    </div>
                 </div>
 
-                <h2>
-                    WOLF NINJA
-                </h2>
+                <div class="season-badge">SEASON 7</div>
 
-            </div>
-
-
-            <!-- VS -->
-
-            <div class="vs">
-                VS
-            </div>
-
-
-            <!-- TEAM B -->
-
-            <div class="team">
-
-                <div class="team-logo team-b">
-                    B
+                <div class="team-info">
+                    <div class="team-details">
+                        <span class="team-name">Team B</span>
+                        <span class="players-list">Cedieasd • Kolas</span>
+                    </div>
+                    <span class="team-icon">B</span>
                 </div>
-
-                <h2>
-                    TEAM B
-                </h2>
-
             </div>
-
         </div>
 
+        <p class="label">FEATURED MATCHUP</p>
+
+        <div class="matchup-card">
+            <div class="team">
+                <div class="team-logo">🐺</div>
+                <h2>WOLF NINJA</h2>
+                <div class="team-score">3</div>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="team">
+                <div class="team-logo team-b">B</div>
+                <h2>TEAM B</h2>
+                <div class="team-score">0</div>
+            </div>
+        </div>
 
         <p class="match-description">
-
-            Wolf Ninja goes head-to-head against Team B
-            in an intense basketball battle on the court.
-            Who will dominate?
-
+            Wolf Ninja goes head-to-head against Team B in an intense basketball battle on the court. Who will dominate?
         </p>
 
-
-        <a
-            class="youtube-button"
-            href="https://www.youtube.com/@AlienShooterOfficialYt/videos"
-            target="_blank">
-
+        <a class="youtube-button"
+           href="https://www.youtube.com/@AlienShooterOfficialYt/videos"
+           target="_blank"
+           rel="noopener noreferrer">
             ▶ &nbsp; WATCH NOW ON YOUTUBE
-
         </a>
-
     </section>
-
 
     <!-- ==========================================
          ALIEN ESPORTS
     =========================================== -->
-
     <section class="esports-category">
-
-
-        <p class="category-label">
-            OUR COMPETITIVE SIDE
-        </p>
-
-
-        <h2 class="category-title">
-            👽 ALIEN ESPORTS 👽
-        </h2>
-
+        <p class="category-label">OUR COMPETITIVE SIDE</p>
+        <h2 class="category-title">👽 ALIEN ESPORTS 👽</h2>
 
         <p class="category-description">
-
-            Alien Esports is a competitive community driven by
-            passion, teamwork, dedication, and the desire to
-            improve. Beyond basketball, we have explored the
-            world of competitive gaming across different titles
-            and continue to carry the Alien name with pride.
-
+            Alien Esports is a competitive community driven by passion, teamwork, dedication, and the desire to improve. Beyond basketball, we have explored the world of competitive gaming across different titles and continue to carry the Alien name with pride.
         </p>
 
-
         <h3 class="category-motto">
-
-            ONE TEAM. ONE GOAL.
-            <span>ONE UNIVERSE.</span>
-
+            ONE TEAM. ONE GOAL. <span>ONE UNIVERSE.</span>
         </h3>
 
-
-        <!-- ==========================================
-             GAME CATEGORIES
-        =========================================== -->
-
         <div class="game-categories">
-
-
-            <!-- ======================================
-                 COUNTER STRIKE 2
-            ======================================= -->
-
+            <!-- CS2 -->
             <div class="game-card">
-
-                <div class="game-image cs2">
-
-                    <span>
-                        CS2
-                    </span>
-
+                <div class="game-image">
+                    <img src="Cs2.jpeg" alt="Counter-Strike 2" loading="lazy" decoding="async">
+                    <span>CS2</span>
                 </div>
-
-
                 <div class="game-content">
-
-                    <h2>
-                        COUNTER-STRIKE 2
-                    </h2>
-
-
-                    <p>
-
-                        Coming from the Counter-Strike:
-                        Global Offensive era, Alien Esports
-                        has built its experience through
-                        years of competitive matches,
-                        teamwork, strategy, and countless
-                        rounds. That experience continues
-                        with us into Counter-Strike 2.
-
-                    </p>
-
-
-                    <h4>
-                        EXPERIENCED COMPETITIVE PLAYERS
-                    </h4>
-
-
-                    <small>
-                        FROM THE CS:GO ERA
-                    </small>
-
+                    <h2>COUNTER-STRIKE 2</h2>
+                    <p>Coming from the Counter-Strike: Global Offensive era, Alien Esports has built its experience through years of competitive matches, teamwork, strategy, and countless rounds. That experience continues with us into Counter-Strike 2.</p>
+                    <h4>EXPERIENCED COMPETITIVE PLAYERS</h4>
+                    <small>FROM THE CS:GO ERA</small>
                 </div>
-
             </div>
 
-
-            <!-- ======================================
-                 POKEMON UNITE
-            ======================================= -->
-
+            <!-- POKEMON UNITE -->
             <div class="game-card">
-
-                <div class="game-image pokemon">
-
-                    <span>
-                        POKÉMON<br>
-                        UNITE
-                    </span>
-
+                <div class="game-image">
+                    <img src="pokmon-unite-button-fin-1626481609674.jpg" alt="Pokemon Unite" loading="lazy" decoding="async">
+                    <span>POKÉMON<br>UNITE</span>
                 </div>
-
-
                 <div class="game-content">
-
-                    <h2>
-                        POKÉMON UNITE
-                    </h2>
-
-
-                    <p>
-
-                        Since 2022, Alien Esports has been
-                        part of the Pokémon Unite competitive
-                        scene. Through teamwork, coordination,
-                        game knowledge, and constant practice,
-                        we continue to develop our skills
-                        and compete at a higher level.
-
-                    </p>
-
-
-                    <h4>
-                        COMPETITIVE PLAYERS
-                    </h4>
-
-
-                    <small>
-                        SINCE 2022
-                    </small>
-
+                    <h2>POKÉMON UNITE</h2>
+                    <p>Since 2022, Alien Esports has been part of the Pokémon Unite competitive scene. Through teamwork, coordination, game knowledge, and constant practice, we continue to develop our skills and compete at a higher level.</p>
+                    <h4>COMPETITIVE PLAYERS</h4>
+                    <small>SINCE 2022</small>
                 </div>
-
             </div>
 
-
-            <!-- ======================================
-                 MOBILE LEGENDS
-            ======================================= -->
-
-            <div class="game-card">
-
-                <div class="game-image ml">
-
-                    <span>
-                        MOBILE<br>
-                        LEGENDS
-                    </span>
-
+            <!-- MOBILE LEGENDS -->
+            <div class="game-card ml-card">
+                <div class="game-image">
+                    <img src="Mobile Legends.jpg" alt="Mobile Legends" loading="lazy" decoding="async">
+                    <span>MOBILE<br>LEGENDS</span>
                 </div>
-
-
                 <div class="game-content">
-
-                    <h2>
-                        MOBILE LEGENDS
-                    </h2>
-
-
-                    <p>
-
-                        Mobile Legends is another important
-                        part of the Alien Esports journey.
-                        With communication, teamwork, skill,
-                        and determination, we continue to
-                        challenge ourselves and improve
-                        every match.
-
-                    </p>
-
-
-                    <h4>
-                        MCL CHAMPION 2021
-                    </h4>
-
-
-                    <small>
-                        ALIEN ESPORTS
-                    </small>
-
+                    <h2>MOBILE LEGENDS</h2>
+                    <p>Mobile Legends is another important part of the Alien Esports journey. With communication, teamwork, skill, and determination, we continue to challenge ourselves and improve every match.</p>
+                    <h4>MCL CHAMPION 2021</h4>
+                    <small>ALIEN ESPORTS</small>
                 </div>
-
             </div>
-
-
         </div>
-
     </section>
 
+    <!-- ==========================================
+         PLAYER ROSTER
+    =========================================== -->
+    <section class="players">
+        <div class="players-heading">
+            <p class="category-label">MEET THE TEAM</p>
+            <h2 class="category-title">👽 ALIEN ESPORTS ROSTER 👽</h2>
+            <p class="players-intro">Meet the players representing Alien Esports across our competitive games.</p>
+        </div>
+
+        <div class="players-grid">
+            <!-- KAZN -->
+            <div class="player-card">
+                <div class="player-image">
+                    <img src="Kazn.jpg" alt="Kazn" loading="lazy" decoding="async">
+                    <div class="player-number">01</div>
+                    <div class="player-status">ALIEN</div>
+                </div>
+                <div class="player-content">
+                    <span class="player-label">ALIEN ESPORTS</span>
+                    <h3>KAZN</h3>
+                    <p class="player-role">COMPETITIVE PLAYER</p>
+                    <div class="game-tags">
+                        <span>CS2</span>
+                        <span>POKÉMON UNITE</span>
+                        <span>MOBILE LEGENDS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CEDIEASD -->
+            <div class="player-card">
+                <div class="player-image">
+                    <img src="Cedieasd.jpg" alt="Cedieasd" loading="lazy" decoding="async">
+                    <div class="player-number">02</div>
+                    <div class="player-status">ALIEN</div>
+                </div>
+                <div class="player-content">
+                    <span class="player-label">ALIEN ESPORTS</span>
+                    <h3>CEDIEASD</h3>
+                    <p class="player-role">COMPETITIVE PLAYER</p>
+                    <div class="game-tags">
+                        <span>CS2</span>
+                        <span>POKÉMON UNITE</span>
+                        <span>MOBILE LEGENDS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ASTRA -->
+            <div class="player-card">
+                <div class="player-image">
+                    <img src="Astra.jpg" alt="Astra" loading="lazy" decoding="async">
+                    <div class="player-number">03</div>
+                    <div class="player-status">ALIEN</div>
+                </div>
+                <div class="player-content">
+                    <span class="player-label">ALIEN ESPORTS</span>
+                    <h3>ASTRA</h3>
+                    <p class="player-role">COMPETITIVE PLAYER</p>
+                    <div class="game-tags">
+                        <span>CS2</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KOLAS -->
+            <div class="player-card">
+                <div class="player-image">
+                    <img src="Kolas.jpg" alt="Kolas" loading="lazy" decoding="async">
+                    <div class="player-number">04</div>
+                    <div class="player-status">ALIEN</div>
+                </div>
+                <div class="player-content">
+                    <span class="player-label">ALIEN ESPORTS</span>
+                    <h3>KOLAS</h3>
+                    <p class="player-role">COMPETITIVE PLAYER</p>
+                    <div class="game-tags">
+                        <span>CS2</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MICHAEL -->
+            <div class="player-card">
+                <div class="player-image">
+                    <img src="Micheal.jpg" alt="Michael" loading="lazy" decoding="async">
+                    <div class="player-number">05</div>
+                    <div class="player-status">ALIEN</div>
+                </div>
+                <div class="player-content">
+                    <span class="player-label">ALIEN ESPORTS</span>
+                    <h3>MICHAEL</h3>
+                    <p class="player-role">COMPETITIVE PLAYER</p>
+                    <div class="game-tags">
+                        <span>GENSHIN IMPACT</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BGSAKURAGI -->
+            <div class="player-card">
+                <div class="player-image">
+                    <img src="BGsakuragi.jpg" alt="BGsakuragi" loading="lazy" decoding="async">
+                    <div class="player-number">06</div>
+                    <div class="player-status">ALIEN</div>
+                </div>
+                <div class="player-content">
+                    <span class="player-label">ALIEN ESPORTS</span>
+                    <h3>BGSAKURAGI</h3>
+                    <p class="player-role">COMPETITIVE PLAYER</p>
+                    <div class="game-tags">
+                        <span>POKÉMON UNITE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ==========================================
          FOOTER
     =========================================== -->
-
     <footer>
-
-        <div class="footer-alien">
-            👽
-        </div>
-
-
-        <p>
-            © 2026 Alien Shooter Basketball & Alien Esports.
-        </p>
-
-
-        <p class="footer-small">
-            Basketball • Esports • Community
-        </p>
-
+        <div class="footer-alien">👽</div>
+        <p>© 2026 Alien Shooter Basketball &amp; Alien Esports.</p>
+        <p class="footer-small">Basketball • Esports • Community</p>
     </footer>
 
     <!-- ==========================================
-     PLAYERS
-    ========================================== -->
+         CYBER YOUTUBE CHANNEL FRAME MODAL
+    =========================================== -->
+    <div class="video-modal-overlay" id="videoModal" aria-hidden="true">
+        <div class="yt-browser-frame">
+            
+            <!-- Top Cyber Browser Header Bar -->
+            <div class="yt-frame-topbar">
+                <div class="browser-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="browser-url-bar">
+                    🔒 https://www.youtube.com/@AlienShooterOfficialYt
+                </div>
+                <button class="modal-close-btn" id="closeVideoModal" aria-label="Close modal">&times;</button>
+            </div>
 
-<section class="players">
+            <!-- Inside YouTube Screen -->
+            <div class="yt-frame-body">
+                
+                <!-- YouTube Channel Banner -->
+                <div class="yt-channel-banner">
+                    <img src="alien-banner.png" alt="Channel Banner">
+                </div>
 
-    <p class="category-label">
-        OUR ROSTER
-    </p>
+                <!-- YouTube Channel Profile Header -->
+                <div class="yt-profile-section">
+                    <div class="yt-avatar">👽</div>
+                    <div class="yt-profile-info">
+                        <div class="yt-name-badge">
+                            <h3>ALIEN SHOOTER</h3>
+                            <span class="yt-verified-badge" title="Verified">✓</span>
+                        </div>
+                        <p class="yt-handle">@AlienShooterOfficialYt • <span>Basketball &amp; Esports</span></p>
+                        <p class="yt-bio">Official YouTube Channel of Alien Shooter &amp; Alien Esports Community.</p>
+                    </div>
+                    <div class="yt-profile-actions">
+                        <a href="https://www.youtube.com/@AlienShooterOfficialYt?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="yt-sub-btn">
+                            SUBSCRIBE
+                        </a>
+                    </div>
+                </div>
 
-    <h2 class="category-title">
-        PLAYERS 
-    </h2>
+                <!-- YouTube Tabs Navigation -->
+                <div class="yt-tabs-nav">
+                    <span class="tab active">VIDEOS</span>
+                    <span class="tab">SHORTS</span>
+                    <span class="tab">PLAYLISTS</span>
+                    <span class="tab">COMMUNITY</span>
+                </div>
 
-    <div class="players-grid">
+                <!-- YouTube Videos Grid Inside Border -->
+                <div class="yt-video-grid">
+                    <!-- Video 1 -->
+                    <a href="https://www.youtube.com/@AlienShooterOfficialYt/videos" target="_blank" rel="noopener noreferrer" class="yt-video-card">
+                        <div class="yt-thumb-box">
+                            <img src="alien-banner.png" alt="Wolf Ninja vs Team B">
+                            <span class="yt-duration">12:45</span>
+                            <div class="yt-play-overlay">▶</div>
+                        </div>
+                        <div class="yt-video-meta">
+                            <h4>Wolf Ninja vs Team B - Season 7 Championship Finals</h4>
+                            <span class="meta-channel">Alien Shooter</span>
+                            <span class="meta-stats">1080p • Full Match</span>
+                        </div>
+                    </a>
 
-        <div class="player-card">
-            <div class="player-avatar">K</div>
-            <h3>ALIEN ESPORTS • KAzn</h3>
-            <span>CS2, POKEMON UNITE, MOBILE LEGENDS</span>
+                    <!-- Video 2 -->
+                    <a href="https://www.youtube.com/@AlienShooterOfficialYt/videos" target="_blank" rel="noopener noreferrer" class="yt-video-card">
+                        <div class="yt-thumb-box">
+                            <img src="alien-banner.png" alt="Alien Basketball Training">
+                            <span class="yt-duration">08:19</span>
+                            <div class="yt-play-overlay">▶</div>
+                        </div>
+                        <div class="yt-video-meta">
+                            <h4>Alien Shooting Training Drills &amp; Warmup Routine</h4>
+                            <span class="meta-channel">Alien Shooter</span>
+                            <span class="meta-stats">Behind The Scenes</span>
+                        </div>
+                    </a>
+
+                    <!-- Video 3 -->
+                    <a href="https://www.youtube.com/@AlienShooterOfficialYt/videos" target="_blank" rel="noopener noreferrer" class="yt-video-card">
+                        <div class="yt-thumb-box">
+                            <img src="alien-banner.png" alt="Top 10 Plays">
+                            <span class="yt-duration">05:30</span>
+                            <div class="yt-play-overlay">▶</div>
+                        </div>
+                        <div class="yt-video-meta">
+                            <h4>Top 10 Impossible Shots &amp; Highlights | Season 7</h4>
+                            <span class="meta-channel">Alien Shooter</span>
+                            <span class="meta-stats">Official Highlights</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Footer Action Bar Inside Border -->
+                <div class="yt-frame-footer">
+                    <button class="back-webpage-btn" id="backToPageBtn">
+                        ← BACK TO WEBPAGE
+                    </button>
+                    <a href="https://www.youtube.com/@AlienShooterOfficialYt/videos" target="_blank" rel="noopener noreferrer" class="youtube-button">
+                        ▶ VISIT CHANNEL ON YOUTUBE
+                    </a>
+                </div>
+
+            </div>
         </div>
+    </div>
 
-        <div class="player-card">
-            <div class="player-avatar">C</div>
-            <h3>ALIEN ESPORTS • Cedieasd</h3>
-            <span>CS2, POKEMON UNITE, MOBILE LEGENDS</span>
-        </div>
-
-        <div class="player-card">
-            <div class="player-avatar">A</div>
-            <h3>ALIEN ESPORTS • Astra</h3>
-            <span>CS2</span>
-        </div>
-
-        <div class="player-card">
-            <div class="player-avatar">K</div>
-            <h3>ALIEN ESPORTS • Kolas</h3>
-            <span>CS2</span>
-        </div>
-
-        <div class="player-card">
-            <div class="player-avatar">M</div>
-            <h3>ALIEN ESPORTS • Micheal</h3>
-            <span>Genshin Impact</span>
-        </div>
-
-        <div class="player-card">
-            <div class="player-avatar">B</div>
-            <h3>ALIEN ESPORTS • BGsakuragi</h3>
-            <span>POKEMON UNITE</span>
-        </div>
-
-    
-</section>
+    <!-- LINK JAVASCRIPT -->
+    <script src="script.js"></script>
 
 </body>
 </html>
